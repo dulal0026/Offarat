@@ -1,0 +1,44 @@
+/* 
+  Localizable.strings
+  Offarat
+
+  Created by Dulal Hossain on 2/11/19.
+  Copyright © 2019 DL. All rights reserved.
+*/
+
+"app_name" = "Offarat";
+
+"skip" = "تخطى";
+"username" = "اسم المستخدم";
+"password" = "كلمه السر";
+"signup" = "سجل";
+"login" = "تسجيل الدخول";
+"login_google" = "تسجيل الدخول مع جوجل";
+"login_facebook" = "تسجيل الدخول مع الفيسبوك";
+
+"language_english" = "الإنجليزية";
+"language_arabic" = "English";
+
+
+"notificaions" = "إشعارات";
+"notificaions_offer" = "أعلمني قبل انتهاء صلاحية العرض المفضل";
+"notificaions_store" = "أبلغني في كل مرة يضيف متجر مفضل عرضًا";
+
+"Language" = "لغة";
+"LogOut" = "تسجيل خروج";
+
+"English" = "English";
+"Arabic" = "هيبرعلا";
+
+"Cancel" = "إلغاء";
+"done" = "منجز";
+"SelectCategory" = "اختر الفئة";
+"AllCategory" = "كل الفئة";
+
+"offer" = "عرض:";
+"from" = "من عند:";
+"details" = "تفاصيل:";
+"Search" = "بحث";
+
+
+

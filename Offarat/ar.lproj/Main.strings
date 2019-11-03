@@ -1,0 +1,21 @@
+
+/* Class = "UILabel"; text = "Log Out"; ObjectID = "Nza-r8-EQl"; */
+//"Nza-r8-EQl.text" = "Log Out";
+"Nza-r8-EQl.text" = "تسجيل خروج";
+
+/* Class = "UILabel"; text = "English"; ObjectID = "ObA-P3-o43"; */
+"ObA-P3-o43.text" = "English";
+
+/* Class = "UILabel"; text = "Language"; ObjectID = "XJy-oe-wc4"; */
+//"XJy-oe-wc4.text" = "Language";
+"XJy-oe-wc4.text" = "لغة";
+
+
+/* Class = "UILabel"; text = "Notifications"; ObjectID = "o7Q-Il-LGD"; */
+//"o7Q-Il-LGD.text" = "Notifications";
+"o7Q-Il-LGD.text" = "إشعارات";
+
+
+/* Class = "UILabel"; text = "هيبرعلا"; ObjectID = "uMm-we-o1E"; */
+"uMm-we-o1E.text" = "هيبرعلا";
+

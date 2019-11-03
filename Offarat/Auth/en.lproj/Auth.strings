@@ -1,0 +1,24 @@
+
+/* Class = "UIButton"; normalTitle = "English"; ObjectID = "1zK-eL-IwY"; */
+"1zK-eL-IwY.normalTitle" = "هيبرعلا";
+
+/* Class = "UIButton"; normalTitle = "Log In"; ObjectID = "9Be-Ae-bDC"; */
+"9Be-Ae-bDC.normalTitle" = "Log In";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "Lzx-aA-Y69"; */
+"Lzx-aA-Y69.placeholder" = "Password";
+
+/* Class = "UILabel"; text = "Log in with Facebook"; ObjectID = "O2m-Dk-bVX"; */
+"O2m-Dk-bVX.text" = "Log in with Facebook";
+
+/* Class = "UILabel"; text = "Log in with Google"; ObjectID = "Qpe-hQ-1lF"; */
+"Qpe-hQ-1lF.text" = "Log in with Google";
+
+/* Class = "UITextField"; placeholder = "Username"; ObjectID = "WL0-j4-QWw"; */
+"WL0-j4-QWw.placeholder" = "Username";
+
+/* Class = "UIButton"; normalTitle = "Skip"; ObjectID = "wiP-86-NdS"; */
+"wiP-86-NdS.normalTitle" = "Skip";
+
+/* Class = "UIButton"; normalTitle = "Sign Up"; ObjectID = "ypg-TF-fO2"; */
+"ypg-TF-fO2.normalTitle" = "Sign Up";

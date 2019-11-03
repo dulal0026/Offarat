@@ -1,0 +1,67 @@
+[
+  {
+    "id":"1",
+    "name":"Grocery",
+    "image":"product_image.png"
+  },
+  {
+    "id":"2",
+    "name":"Food & Cafe",
+    "image":"product_image.png"
+  },
+  {
+    "id":"3",
+    "name":"Clothing",
+    "image":"product_image.png"
+  },
+  {
+    "id":"4",
+    "name":"Electronics",
+    "image":"product_image.png"
+  },
+  {
+    "id":"5",
+    "name":"Car Service",
+    "image":"product_image.png"
+  },
+  {
+    "id":"6",
+    "name":"Beauty & Salons",
+    "image":"product_image.png"
+  },
+  {
+    "id":"7",
+    "name":"Events & Weddings",
+    "image":"product_image.png"
+  },
+  {
+    "id":"8",
+    "name":"Services",
+    "image":"product_image.png"
+  },
+  {
+    "id":"9",
+    "name":"Travel & tourism",
+    "image":"product_image.png"
+  },
+  {
+    "id":"10",
+    "name":"Home",
+    "image":"product_image.png"
+  },
+  {
+    "id":"11",
+    "name":"Jewellery & accessories",
+    "image":"product_image.png"
+  },
+  {
+    "id":"12",
+    "name":"Watches & perfume",
+    "image":"product_image.png"
+  },
+  {
+    "id":"13",
+    "name":"Fitness & gyms",
+    "image":"product_image.png"
+  }
+]
