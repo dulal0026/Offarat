@@ -16,8 +16,6 @@ class HomeVC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        catagoryCollectionView.register(UINib(nibName: "CatagoryCollectionCell", bundle: nil), forCellWithReuseIdentifier: "CatagoryCollectionCell")
-
         catagoryCollectionView.delegate = self
         catagoryCollectionView.dataSource = self
     }

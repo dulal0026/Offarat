@@ -30,7 +30,6 @@
 		5478740B236D3DCC00842A68 /* KYEmbedMainControllerSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547873FE236D3DCC00842A68 /* KYEmbedMainControllerSegue.swift */; };
 		5478740C236D3DCC00842A68 /* MenuTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547873FF236D3DCC00842A68 /* MenuTableCell.swift */; };
 		5478740D236D3DCC00842A68 /* MenuHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54787400236D3DCC00842A68 /* MenuHeaderView.swift */; };
-		5478740E236D3DCC00842A68 /* Drawer.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54787401236D3DCC00842A68 /* Drawer.xcassets */; };
 		5478741F236D3E7D00842A68 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54787415236D3E7D00842A68 /* Models.swift */; };
 		54787427236D3F4E00842A68 /* LocalizationSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54787426236D3F4E00842A68 /* LocalizationSystem.swift */; };
 		5478742E236D436900842A68 /* UIViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54787429236D436900842A68 /* UIViewControllerExtension.swift */; };
@@ -51,11 +50,9 @@
 		547AD9CB236DDE73002699FE /* DrawerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547AD9CA236DDE73002699FE /* DrawerManager.swift */; };
 		547AD9D2236DF2D6002699FE /* ProductDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547AD9D1236DF2D6002699FE /* ProductDetailsVC.swift */; };
 		547AD9DA236E035C002699FE /* ProductCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 547AD9D4236E035C002699FE /* ProductCell.xib */; };
-		547AD9DB236E035C002699FE /* StoreCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 547AD9D5236E035C002699FE /* StoreCell.xib */; };
 		547AD9DC236E035C002699FE /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547AD9D6236E035C002699FE /* ProductCell.swift */; };
 		547AD9DD236E035C002699FE /* CatagoryCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547AD9D7236E035C002699FE /* CatagoryCollectionCell.swift */; };
 		547AD9DE236E035C002699FE /* StoreCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547AD9D8236E035C002699FE /* StoreCell.swift */; };
-		547AD9DF236E035C002699FE /* CatagoryCollectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 547AD9D9236E035C002699FE /* CatagoryCollectionCell.xib */; };
 		547AD9F7236E160C002699FE /* IQTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547AD9E2236E160C002699FE /* IQTextView.swift */; };
 		547AD9F8236E160C002699FE /* IQPreviousNextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547AD9E4236E160C002699FE /* IQPreviousNextView.swift */; };
 		547AD9F9236E160C002699FE /* IQTitleBarButtonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547AD9E5236E160C002699FE /* IQTitleBarButtonItem.swift */; };
@@ -122,7 +119,6 @@
 		547873FE236D3DCC00842A68 /* KYEmbedMainControllerSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KYEmbedMainControllerSegue.swift; sourceTree = "<group>"; };
 		547873FF236D3DCC00842A68 /* MenuTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuTableCell.swift; sourceTree = "<group>"; };
 		54787400236D3DCC00842A68 /* MenuHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuHeaderView.swift; sourceTree = "<group>"; };
-		54787401236D3DCC00842A68 /* Drawer.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Drawer.xcassets; sourceTree = "<group>"; };
 		54787415236D3E7D00842A68 /* Models.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 		54787426236D3F4E00842A68 /* LocalizationSystem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalizationSystem.swift; sourceTree = "<group>"; };
 		54787429236D436900842A68 /* UIViewControllerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtension.swift; sourceTree = "<group>"; };
@@ -149,11 +145,9 @@
 		547AD9CA236DDE73002699FE /* DrawerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawerManager.swift; sourceTree = "<group>"; };
 		547AD9D1236DF2D6002699FE /* ProductDetailsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailsVC.swift; sourceTree = "<group>"; };
 		547AD9D4236E035C002699FE /* ProductCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProductCell.xib; sourceTree = "<group>"; };
-		547AD9D5236E035C002699FE /* StoreCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StoreCell.xib; sourceTree = "<group>"; };
 		547AD9D6236E035C002699FE /* ProductCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
 		547AD9D7236E035C002699FE /* CatagoryCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CatagoryCollectionCell.swift; sourceTree = "<group>"; };
 		547AD9D8236E035C002699FE /* StoreCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoreCell.swift; sourceTree = "<group>"; };
-		547AD9D9236E035C002699FE /* CatagoryCollectionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CatagoryCollectionCell.xib; sourceTree = "<group>"; };
 		547AD9E2236E160C002699FE /* IQTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQTextView.swift; sourceTree = "<group>"; };
 		547AD9E4236E160C002699FE /* IQPreviousNextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQPreviousNextView.swift; sourceTree = "<group>"; };
 		547AD9E5236E160C002699FE /* IQTitleBarButtonItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IQTitleBarButtonItem.swift; sourceTree = "<group>"; };
@@ -301,7 +295,6 @@
 			isa = PBXGroup;
 			children = (
 				547873F7236D3DCB00842A68 /* Drawer.storyboard */,
-				54787401236D3DCC00842A68 /* Drawer.xcassets */,
 				547873FA236D3DCB00842A68 /* DrawerMenuVC.swift */,
 				547873F5236D3DCB00842A68 /* DrawerVC.swift */,
 				547873FB236D3DCC00842A68 /* KYDrawerController */,
@@ -355,6 +348,8 @@
 		54787433236D483300842A68 /* MainViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				547AD9D8236E035C002699FE /* StoreCell.swift */,
+				547AD9D7236E035C002699FE /* CatagoryCollectionCell.swift */,
 				547AD9D1236DF2D6002699FE /* ProductDetailsVC.swift */,
 				54787448236D53D000842A68 /* BeautyProductsVC.swift */,
 				54787452236D53D100842A68 /* FavoriteVC.swift */,
@@ -370,12 +365,8 @@
 			isa = PBXGroup;
 			children = (
 				5425F3FB236CC42D00BD2AC8 /* CustomControls */,
-				547AD9D7236E035C002699FE /* CatagoryCollectionCell.swift */,
-				547AD9D9236E035C002699FE /* CatagoryCollectionCell.xib */,
 				547AD9D6236E035C002699FE /* ProductCell.swift */,
 				547AD9D4236E035C002699FE /* ProductCell.xib */,
-				547AD9D8236E035C002699FE /* StoreCell.swift */,
-				547AD9D5236E035C002699FE /* StoreCell.xib */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -550,7 +541,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				54787406236D3DCC00842A68 /* MenuHeaderView.xib in Resources */,
-				547AD9DF236E035C002699FE /* CatagoryCollectionCell.xib in Resources */,
 				54787443236D4E9200842A68 /* Localizable.strings in Resources */,
 				5478743A236D4E2500842A68 /* Auth.storyboard in Resources */,
 				547873F1236D3D5100842A68 /* iTunesArtwork@3x in Resources */,
@@ -560,10 +550,8 @@
 				5425F3D3236CC1F800BD2AC8 /* LaunchScreen.storyboard in Resources */,
 				54787475236D821700842A68 /* category.json in Resources */,
 				547AD9DA236E035C002699FE /* ProductCell.xib in Resources */,
-				547AD9DB236E035C002699FE /* StoreCell.xib in Resources */,
 				5425F3D0236CC1F800BD2AC8 /* Assets.xcassets in Resources */,
 				547873F2236D3D5100842A68 /* iTunesArtwork in Resources */,
-				5478740E236D3DCC00842A68 /* Drawer.xcassets in Resources */,
 				547ADA00236E160C002699FE /* IQKeyboardManager.bundle in Resources */,
 				5425F3CE236CC1F500BD2AC8 /* Main.storyboard in Resources */,
 			);

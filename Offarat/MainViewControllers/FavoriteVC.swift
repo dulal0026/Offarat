@@ -35,7 +35,6 @@ class FavoriteVC: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        tableview.register(UINib.init(nibName: StoreCell.sbIdentifier, bundle: Bundle.main), forCellReuseIdentifier: StoreCell.sbIdentifier)
         tableview.register(UINib.init(nibName: ProductCell.sbIdentifier, bundle: Bundle.main), forCellReuseIdentifier: ProductCell.sbIdentifier)
         tableview.delegate = self
         tableview.dataSource = self

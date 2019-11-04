@@ -12,7 +12,6 @@ class DrawerMenuVC: UIViewController {
 
     @IBOutlet weak var selectCategoryTitleLabel: UILabel!
     @IBOutlet weak var allCategoryTitleLabel: UILabel!
-    
     @IBOutlet weak var menuTableView: UITableView!
     var catagories:[CategoryModel] = []
 
@@ -50,6 +49,11 @@ class DrawerMenuVC: UIViewController {
             completion([])
         }
     }
+    
+    @IBAction func allCategoryAction(_ sender: UIButton) {
+        DrawerManager.manager.openClose()
+        DrawerManager.manager.changeTab(2)
+    }
 }
 
 extension DrawerMenuVC: UITableViewDelegate, UITableViewDataSource{
@@ -81,6 +85,9 @@ extension DrawerMenuVC: UITableViewDelegate, UITableViewDataSource{
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
+        DrawerManager.manager.openClose()
+
+        DrawerManager.manager.changeTab(3)
     }
     func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
         return 40
@@ -89,15 +96,21 @@ extension DrawerMenuVC: UITableViewDelegate, UITableViewDataSource{
     func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
         let headerView: MenuHeaderView = MenuHeaderView.fromNib()
         headerView.headerTap = { [weak self] in
+            for cate in self!.catagories {
+                cate.isExpand = false
+            }
+            /*
             if let expnd = self?.catagories[section].isExpand{
                 self?.catagories[section].isExpand = !(self?.catagories[section].isExpand)!
             }
             else{
                 self?.catagories[section].isExpand = true
 
-            }
-            
-            tableView.reloadSections([section], with: .automatic)
+            }*/
+            self?.catagories[section].isExpand = true
+
+            tableView.reloadData()
+            //tableView.reloadSections([section], with: .automatic)
 
         }
         headerView.fill(catagories[section])
@@ -106,5 +119,8 @@ extension DrawerMenuVC: UITableViewDelegate, UITableViewDataSource{
 }
 
 
+class MenuTableView: UITableView {
+    
+}
 
 

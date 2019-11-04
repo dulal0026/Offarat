@@ -19,7 +19,7 @@ class SettingsVC: UIViewController {
     @IBOutlet weak var englishCheckBox: UIImageView!
     @IBOutlet weak var arabicCheckBox: UIImageView!
 
-    
+    @IBOutlet weak var notificationContainerHeight: NSLayoutConstraint!
     @IBOutlet weak var notificationTitleLabel: UILabel!
     
     @IBOutlet weak var languageTitleLabel: UILabel!
@@ -29,6 +29,11 @@ class SettingsVC: UIViewController {
     @IBOutlet weak var arabicTitleLabel: UILabel!
 
     @IBOutlet weak var logoutTitleLabel: UILabel!
+    
+    @IBOutlet weak var notificationmeContainerView: UIView!
+    @IBOutlet weak var notificationOfferLabel: UILabel!
+    @IBOutlet weak var notificaitonStoreLabel: UILabel!
+    
     var selectedLanguage:SelectedLanguage = .english{
         didSet{
             let si = UIImage.init(named: "ticket_icon")!
@@ -36,11 +41,21 @@ class SettingsVC: UIViewController {
             arabicCheckBox.image = selectedLanguage == .arabic ? si:nil
         }
     }
+    var notificationEnabled:Bool = false{
+        didSet{
+            notificationContainerHeight.constant = notificationEnabled ? 126:0
+        }
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
+        notificationEnabled = false
+
         let lang = LocalizationSystem.shared.getLanguage()
         selectedLanguage = lang == "en" ? .english:.arabic
         setLocalizedText()
+    }
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
     }
     
     func setLocalizedText() {
@@ -49,9 +64,17 @@ class SettingsVC: UIViewController {
             englishTitleLabel.text = English.localizedValue()
         arabicTitleLabel.text = Arabic.localizedValue()
         logoutTitleLabel.text = LogOut.localizedValue()
+        notificationOfferLabel.text = notificaions_offer.localizedValue()
+        notificaitonStoreLabel.text = notificaions_store.localizedValue()
     }
+    
     @IBAction func notificationAction(_ sender: UISwitch){
-        
+        notificationEnabled = sender.isOn
+    }
+    
+    @IBAction func notificationOfferAction(_ sender: UISwitch) {
+    }
+    @IBAction func notificationStoreAction(_ sender: UISwitch) {
     }
     
     @IBAction func setEnglishLanguage(_ sender: UIButton){
