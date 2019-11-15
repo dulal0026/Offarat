@@ -18,6 +18,9 @@
 		5425F404236CC42D00BD2AC8 /* CustomTextFields.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5425F3FD236CC42D00BD2AC8 /* CustomTextFields.swift */; };
 		5425F405236CC42D00BD2AC8 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5425F3FE236CC42D00BD2AC8 /* CustomButton.swift */; };
 		5425F40C236CC6F900BD2AC8 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5425F40B236CC6F800BD2AC8 /* Colors.swift */; };
+		54352A9E237EB65F0066EB44 /* GalleryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54352A9D237EB65F0066EB44 /* GalleryCell.swift */; };
+		54352AA5237ECA3C0066EB44 /* FilterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54352AA3237ECA3C0066EB44 /* FilterCell.swift */; };
+		54352AA6237ECA3C0066EB44 /* FavoriteVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54352AA4237ECA3C0066EB44 /* FavoriteVC.swift */; };
 		547873F1236D3D5100842A68 /* iTunesArtwork@3x in Resources */ = {isa = PBXBuildFile; fileRef = 547873EE236D3D5100842A68 /* iTunesArtwork@3x */; };
 		547873F2236D3D5100842A68 /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = 547873EF236D3D5100842A68 /* iTunesArtwork */; };
 		547873F3236D3D5100842A68 /* iTunesArtwork@2x in Resources */ = {isa = PBXBuildFile; fileRef = 547873F0236D3D5100842A68 /* iTunesArtwork@2x */; };
@@ -70,6 +73,7 @@
 		547ADA05236E160C002699FE /* IQUITextFieldView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547AD9F4236E160C002699FE /* IQUITextFieldView+Additions.swift */; };
 		547ADA06236E160C002699FE /* IQUIView+Hierarchy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547AD9F5236E160C002699FE /* IQUIView+Hierarchy.swift */; };
 		547ADA07236E160C002699FE /* IQNSArray+Sort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547AD9F6236E160C002699FE /* IQNSArray+Sort.swift */; };
+		54FFB90C237ECA9B0031712E /* FilterVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54FFB90B237ECA9B0031712E /* FilterVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -107,6 +111,9 @@
 		5425F3FD236CC42D00BD2AC8 /* CustomTextFields.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextFields.swift; sourceTree = "<group>"; };
 		5425F3FE236CC42D00BD2AC8 /* CustomButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
 		5425F40B236CC6F800BD2AC8 /* Colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		54352A9D237EB65F0066EB44 /* GalleryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryCell.swift; sourceTree = "<group>"; };
+		54352AA3237ECA3C0066EB44 /* FilterCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterCell.swift; sourceTree = "<group>"; };
+		54352AA4237ECA3C0066EB44 /* FavoriteVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoriteVC.swift; sourceTree = "<group>"; };
 		547873EE236D3D5100842A68 /* iTunesArtwork@3x */ = {isa = PBXFileReference; lastKnownFileType = file; path = "iTunesArtwork@3x"; sourceTree = "<group>"; };
 		547873EF236D3D5100842A68 /* iTunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = file; path = iTunesArtwork; sourceTree = "<group>"; };
 		547873F0236D3D5100842A68 /* iTunesArtwork@2x */ = {isa = PBXFileReference; lastKnownFileType = file; path = "iTunesArtwork@2x"; sourceTree = "<group>"; };
@@ -165,6 +172,7 @@
 		547AD9F4236E160C002699FE /* IQUITextFieldView+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUITextFieldView+Additions.swift"; sourceTree = "<group>"; };
 		547AD9F5236E160C002699FE /* IQUIView+Hierarchy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQUIView+Hierarchy.swift"; sourceTree = "<group>"; };
 		547AD9F6236E160C002699FE /* IQNSArray+Sort.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "IQNSArray+Sort.swift"; sourceTree = "<group>"; };
+		54FFB90B237ECA9B0031712E /* FilterVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -348,6 +356,9 @@
 		54787433236D483300842A68 /* MainViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				54352AA4237ECA3C0066EB44 /* FavoriteVC.swift */,
+				54352AA3237ECA3C0066EB44 /* FilterCell.swift */,
+				54FFB90B237ECA9B0031712E /* FilterVC.swift */,
 				547AD9D8236E035C002699FE /* StoreCell.swift */,
 				547AD9D7236E035C002699FE /* CatagoryCollectionCell.swift */,
 				547AD9D1236DF2D6002699FE /* ProductDetailsVC.swift */,
@@ -357,6 +368,7 @@
 				5478744F236D53D100842A68 /* HomeVC.swift */,
 				54787435236D487800842A68 /* HomeTabbarController.swift */,
 				5478746D236D584900842A68 /* SettingsVC.swift */,
+				54352A9D237EB65F0066EB44 /* GalleryCell.swift */,
 			);
 			path = MainViewControllers;
 			sourceTree = "<group>";
@@ -582,15 +594,19 @@
 				547AD9DD236E035C002699FE /* CatagoryCollectionCell.swift in Sources */,
 				5478740C236D3DCC00842A68 /* MenuTableCell.swift in Sources */,
 				547AD9FD236E160C002699FE /* IQInvocation.swift in Sources */,
+				54352AA6237ECA3C0066EB44 /* FavoriteVC.swift in Sources */,
 				547ADA07236E160C002699FE /* IQNSArray+Sort.swift in Sources */,
 				5478741F236D3E7D00842A68 /* Models.swift in Sources */,
 				547ADA05236E160C002699FE /* IQUITextFieldView+Additions.swift in Sources */,
 				54787409236D3DCC00842A68 /* KYEmbedDrawerControllerSegue.swift in Sources */,
+				54FFB90C237ECA9B0031712E /* FilterVC.swift in Sources */,
 				547ADA02236E160C002699FE /* IQKeyboardManager.swift in Sources */,
 				547AD9F7236E160C002699FE /* IQTextView.swift in Sources */,
 				5478742F236D436900842A68 /* UIViewControllerExt.swift in Sources */,
 				54787408236D3DCC00842A68 /* DrawerMenuVC.swift in Sources */,
+				54352A9E237EB65F0066EB44 /* GalleryCell.swift in Sources */,
 				5425F40C236CC6F900BD2AC8 /* Colors.swift in Sources */,
+				54352AA5237ECA3C0066EB44 /* FilterCell.swift in Sources */,
 				547AD9FA236E160C002699FE /* IQBarButtonItem.swift in Sources */,
 				547ADA03236E160C002699FE /* IQUIScrollView+Additions.swift in Sources */,
 				547AD9FE236E160C002699FE /* IQKeyboardManagerConstantsInternal.swift in Sources */,

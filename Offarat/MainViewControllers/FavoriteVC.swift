@@ -34,13 +34,27 @@ class FavoriteVC: UIViewController {
     }
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        let editImage    = UIImage(named: "search_icon")!
+        let searchImage  = UIImage(named: "filter icon")!
+        
+        let editButton   = UIBarButtonItem(image: editImage,  style: .plain, target: self, action: #selector(didTapEditButton))
+        let searchButton = UIBarButtonItem(image: searchImage,  style: .plain, target: self, action: #selector(didTapSearchButton))
+        
+        navigationItem.rightBarButtonItems = [editButton, searchButton,editButton]
+        
+    
+   
         tableview.register(UINib.init(nibName: ProductCell.sbIdentifier, bundle: Bundle.main), forCellReuseIdentifier: ProductCell.sbIdentifier)
         tableview.delegate = self
         tableview.dataSource = self
         segmentType = .offers
     }
-    
+    @objc func didTapEditButton()  {
+        
+    }
+    @objc func didTapSearchButton()  {
+        
+    }
     func loadProducts(fileName: String, with completion:(_ categories:[ProductModel])->Void) {
         if let url = Bundle.main.url(forResource: fileName, withExtension: "json") {
             do {

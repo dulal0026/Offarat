@@ -23,16 +23,16 @@
                         <constraint firstAttribute="height" constant="1" id="Gyw-5z-wkw"/>
                     </constraints>
                 </view>
-                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="arrow_bottom" translatesAutoresizingMaskIntoConstraints="NO" id="FBr-Lr-yrI">
-                    <rect key="frame" x="20" y="438" width="20" height="20"/>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="FBr-Lr-yrI">
+                    <rect key="frame" x="20" y="440" width="16" height="16"/>
                     <color key="tintColor" red="0.5450980392" green="0.43529411759999997" blue="0.19215686269999999" alpha="1" colorSpace="calibratedRGB"/>
                     <constraints>
-                        <constraint firstAttribute="height" constant="20" id="jSt-mt-6PW"/>
-                        <constraint firstAttribute="width" constant="20" id="jrd-MK-ZtN"/>
+                        <constraint firstAttribute="height" constant="16" id="jSt-mt-6PW"/>
+                        <constraint firstAttribute="width" constant="16" id="jrd-MK-ZtN"/>
                     </constraints>
                 </imageView>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="HOME" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dMo-tp-dMI">
-                    <rect key="frame" x="48" y="426.5" width="358" height="43"/>
+                    <rect key="frame" x="44" y="426.5" width="362" height="43"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="43" id="Ye1-6B-2j9"/>
                     </constraints>
@@ -69,7 +69,4 @@
             </connections>
         </view>
     </objects>
-    <resources>
-        <image name="arrow_bottom" width="45" height="26"/>
-    </resources>
 </document>

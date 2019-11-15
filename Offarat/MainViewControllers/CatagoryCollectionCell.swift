@@ -34,7 +34,7 @@ class BorderView: UIView{
     }
     
     func commonInit(){
-        layer.cornerRadius = 0
+        layer.cornerRadius = 10
         layer.borderWidth = 1
         layer.borderColor = Color.colorPrimary.cgColor
         layer.masksToBounds = false
