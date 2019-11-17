@@ -42,21 +42,18 @@ class LoginVC: UIViewController {
     }
 
     @IBAction func loginAction(_ sender: UIButton){
-        DrawerManager.manager.setTabbarAsRoot()
-
+        Presenter.shared.setTabbarAsRoot()
     }
     
     @IBAction func SignupAction(_ sender: UIButton){
-        DrawerManager.manager.setTabbarAsRoot()
-
+        Presenter.shared.setTabbarAsRoot()
     }
     
     @IBAction func skipAction(_ sender: UIButton){
-        DrawerManager.manager.setTabbarAsRoot()
+        Presenter.shared.setTabbarAsRoot()
     }
     
     @IBAction func googleLoginAction(_ sender: UIButton){
-        
     }
     
     @IBAction func facebookLoginAction(_ sender: UIButton){
@@ -68,6 +65,6 @@ class LoginVC: UIViewController {
         LocalizationSystem.shared.setLanguage(languageCode: lang == "en" ? "ar":"en")
         UIView.appearance().semanticContentAttribute = lang == "en" ?   .forceLeftToRight : .forceRightToLeft
 
-        DrawerManager.manager.setLoginAsRoot()
+        Presenter.shared.setLoginAsRoot()
     }
 }

@@ -79,7 +79,7 @@ class HomeTabbarController: UITabBarController {
     }
    
     @IBAction func menuAction(_ sender: UIBarButtonItem){
-        DrawerManager.manager.openClose(true)
+        Presenter.shared.openClose(true)
     }
 }
 

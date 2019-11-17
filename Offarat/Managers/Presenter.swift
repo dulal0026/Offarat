@@ -1,5 +1,5 @@
 //
-//  DrawerManager.swift
+//  Presenter.swift
 //  Offarat
 //
 //  Created by Dulal Hossain on 2/11/19.
@@ -8,20 +8,20 @@
 
 import UIKit
 
-class DrawerManager {
+class Presenter {
     
-    static var manager:DrawerManager = DrawerManager()
+    static var shared:Presenter = Presenter()
     
     private init(){
     }
     
     func setTabbarAsRoot(_ index: Int = 2) {
-        let drawer: UIStoryboard = UIStoryboard.init(name: "Drawer", bundle: Bundle.main)
+        let drawer: UIStoryboard = UIStoryboard.init(name: "Main", bundle: Bundle.main)
         let homeVC =  UIStoryboard.storyBoard(storyBoard: .Main).instantiateViewController(HomeTabbarController.self)
         
         let homeNav: UINavigationController = UINavigationController.init(rootViewController: homeVC)
         homeNav.navigationBar.tintColor = Color.colorPrimary
-        let menu: DrawerMenuVC = drawer.instantiateViewController(withIdentifier: "MenuVC") as! DrawerMenuVC
+        let menu: MenuVC = drawer.instantiateViewController(withIdentifier: "MenuVC") as! MenuVC
         
         let drawerController = DrawerVC(drawerDirection: LocalizationSystem.shared.getLanguage() == "en" ? .left:.right, drawerWidth: 300)
         drawerController.mainViewController = homeNav
@@ -34,11 +34,11 @@ class DrawerManager {
     }
     
     func setDrawer(_ homeVC: UIViewController) {
-        let drawer: UIStoryboard = UIStoryboard.init(name: "Drawer", bundle: Bundle.main)
+        let drawer: UIStoryboard = UIStoryboard.init(name: "Main", bundle: Bundle.main)
         let homeNav: UINavigationController = UINavigationController.init(rootViewController: homeVC)
         homeNav.navigationBar.tintColor = Color.colorPrimary
 
-        let menu: DrawerMenuVC = drawer.instantiateViewController(withIdentifier: "MenuVC") as! DrawerMenuVC
+        let menu: MenuVC = drawer.instantiateViewController(withIdentifier: "MenuVC") as! MenuVC
         
         let drawerController = DrawerVC(drawerDirection: .left, drawerWidth: 300)
         drawerController.mainViewController = homeNav
@@ -65,8 +65,6 @@ class DrawerManager {
     }
     
     func logOut(){
-       // AppSessionManager.shared.currentUser = nil
-        //AppSessionManager.shared.save()
         setLoginAsRoot()
     }
     

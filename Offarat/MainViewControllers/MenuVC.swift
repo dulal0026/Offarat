@@ -8,7 +8,7 @@
 
 import UIKit
 
-class DrawerMenuVC: UIViewController {
+class MenuVC: UIViewController {
 
     @IBOutlet weak var selectCategoryTitleLabel: UILabel!
     @IBOutlet weak var allCategoryTitleLabel: UILabel!
@@ -51,12 +51,12 @@ class DrawerMenuVC: UIViewController {
     }
     
     @IBAction func allCategoryAction(_ sender: UIButton) {
-        DrawerManager.manager.openClose()
-        DrawerManager.manager.changeTab(2)
+        Presenter.shared.openClose()
+        Presenter.shared.changeTab(2)
     }
 }
 
-extension DrawerMenuVC: UITableViewDelegate, UITableViewDataSource{
+extension MenuVC: UITableViewDelegate, UITableViewDataSource{
     func numberOfSections(in tableView: UITableView) -> Int {
         return catagories.count
     }
@@ -85,9 +85,9 @@ extension DrawerMenuVC: UITableViewDelegate, UITableViewDataSource{
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         tableView.deselectRow(at: indexPath, animated: true)
-        DrawerManager.manager.openClose()
+        Presenter.shared.openClose()
 
-        DrawerManager.manager.changeTab(3)
+        Presenter.shared.changeTab(3)
     }
     func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
         return 40
@@ -96,22 +96,20 @@ extension DrawerMenuVC: UITableViewDelegate, UITableViewDataSource{
     func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
         let headerView: MenuHeaderView = MenuHeaderView.fromNib()
         headerView.headerTap = { [weak self] in
-            for cate in self!.catagories {
-                cate.isExpand = false
-            }
-            /*
-            if let expnd = self?.catagories[section].isExpand{
-                self?.catagories[section].isExpand = !(self?.catagories[section].isExpand)!
+           
+            
+            if let expnd = self?.catagories[section].isExpand, expnd == true{
+                self?.catagories[section].isExpand = false
+                tableView.reloadSections([section], with: .automatic)
+                return
             }
             else{
+                for cate in self!.catagories {
+                    cate.isExpand = false
+                }
                 self?.catagories[section].isExpand = true
-
-            }*/
-            self?.catagories[section].isExpand = true
-
-            tableView.reloadData()
-            //tableView.reloadSections([section], with: .automatic)
-
+                tableView.reloadData()
+            }
         }
         headerView.fill(catagories[section])
         return headerView
@@ -119,8 +117,5 @@ extension DrawerMenuVC: UITableViewDelegate, UITableViewDataSource{
 }
 
 
-class MenuTableView: UITableView {
-    
-}
 
 

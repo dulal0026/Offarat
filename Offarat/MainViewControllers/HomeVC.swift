@@ -70,7 +70,7 @@ extension HomeVC: UICollectionViewDelegate, UICollectionViewDataSource, UICollec
     }
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
-        DrawerManager.manager.changeTab(3)
+        Presenter.shared.changeTab(3)
     }
     
 }

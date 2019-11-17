@@ -83,7 +83,7 @@ class SettingsVC: UIViewController {
         if lang != "en" {
             LocalizationSystem.shared.setLanguage(languageCode: "en")
             UIView.appearance().semanticContentAttribute = .forceLeftToRight
-            DrawerManager.manager.setTabbarAsRoot(4)
+            Presenter.shared.setTabbarAsRoot(4)
         }
     }
     
@@ -94,11 +94,11 @@ class SettingsVC: UIViewController {
         if lang != "ar" {
             LocalizationSystem.shared.setLanguage(languageCode: "ar")
             UIView.appearance().semanticContentAttribute = .forceRightToLeft
-            DrawerManager.manager.setTabbarAsRoot(4)
+            Presenter.shared.setTabbarAsRoot(4)
         }
     }
     
     @IBAction func logout(_ sender: UISwitch){
-        DrawerManager.manager.logOut()
+        Presenter.shared.logOut()
     }
 }
