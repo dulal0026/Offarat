@@ -1203,22 +1203,22 @@
         </scene>
     </scenes>
     <resources>
-        <image name="beauty_deselected" width="27" height="30"/>
-        <image name="beauty_selected" width="27" height="30"/>
-        <image name="brawes_deseleced" width="33" height="30"/>
-        <image name="brawes_seleced" width="33" height="30"/>
+        <image name="beauty_deselected" width="19" height="22"/>
+        <image name="beauty_selected" width="19" height="22"/>
+        <image name="brawes_deseleced" width="25" height="22"/>
+        <image name="brawes_seleced" width="25" height="22"/>
         <image name="dummy_vender_logo" width="75" height="52"/>
-        <image name="favorite_deselected" width="35" height="30"/>
-        <image name="favorite_selected" width="35" height="30"/>
+        <image name="favorite_deselected" width="25" height="22"/>
+        <image name="favorite_selected" width="25" height="22"/>
         <image name="grocery_image" width="251" height="313"/>
-        <image name="home_deselected" width="30" height="30"/>
-        <image name="home_selected" width="30" height="30"/>
+        <image name="home_deselected" width="22" height="22"/>
+        <image name="home_selected" width="22" height="22"/>
         <image name="location_icon" width="204" height="300"/>
         <image name="menu_icon" width="28" height="20"/>
         <image name="phone_icon" width="257" height="300"/>
         <image name="product_image" width="709" height="502"/>
-        <image name="setting_deselected" width="33" height="30"/>
-        <image name="setting_selected" width="30" height="30"/>
+        <image name="setting_deselected" width="25" height="22"/>
+        <image name="setting_selected" width="22" height="22"/>
         <image name="share_icon" width="275" height="275"/>
         <image name="ticket_icon" width="150" height="138"/>
     </resources>

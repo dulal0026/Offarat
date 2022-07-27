@@ -48,8 +48,6 @@ class HomeTabbarController: UITabBarController {
             titleView.frame =  CGRect.init(x: 0, y: 0, width: width, height: 40)
             searchTextField.frame =  CGRect.init(x: 4, y: 2, width: width-8, height: 36)
             navigationController?.navigationBar.layoutIfNeeded()
-           // titleView.addSubview(searchTextField)
-
         }
     }
     
