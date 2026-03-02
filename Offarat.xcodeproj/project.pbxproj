@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 70;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -167,6 +167,10 @@
 		54FFB90B237ECA9B0031712E /* FilterVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		B42D9C2D2F55C93F00E07B64 /* Screenshots */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Screenshots; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
+
 /* Begin PBXFrameworksBuildPhase section */
 		5425F3C2236CC1F500BD2AC8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
@@ -215,6 +219,7 @@
 		5425F3C7236CC1F500BD2AC8 /* Offarat */ = {
 			isa = PBXGroup;
 			children = (
+				B42D9C2D2F55C93F00E07B64 /* Screenshots */,
 				5439F22F2381521B0004CAF3 /* Libraries */,
 				547AD9D3236E0308002699FE /* Cells */,
 				54787433236D483300842A68 /* MainViewControllers */,
@@ -441,6 +446,9 @@
 			buildRules = (
 			);
 			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				B42D9C2D2F55C93F00E07B64 /* Screenshots */,
 			);
 			name = Offarat;
 			productName = Offarat;
