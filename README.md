@@ -10,3 +10,8 @@ iOS E-commerce app for mobile.
 <li> Settings </li>
 <li> Product Cart </li>
 
+# Language
+<li> Swift </li>
+
+# User Interface
+<li> Auto Layout </li>
